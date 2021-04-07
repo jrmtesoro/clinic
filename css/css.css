@@ -1,0 +1,116 @@
+.clinic-bg-img
+{
+  background-image: url("img/bg-img.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+tr
+{
+  cursor: pointer;
+}
+
+.ft
+{
+  position: absolute;
+  padding: 60px;
+  bottom: 0;
+}
+
+ul.nav a:hover 
+{ 
+  color: black; 
+  background-color: gray;
+}
+
+.navbar .form-control 
+{
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+}
+
+.form-control-dark 
+{
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.sidebar .nav-link {
+  font-size: .9em;
+  font-weight: 500;
+  color: gray;
+}
+
+.sidebar-sticky
+{
+  position: sticky;
+}
+
+.scrollable-col
+{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.col-centered 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.navbar-style
+{
+  background:rgba(0,0,0,0.2);
+  border-bottom: 1px solid white;
+  font-weight: bold;
+}
+
+.login-style
+{
+  background:rgba(0,0,0,0.3);
+  border: 5px solid white;
+}
+
+.login-style-font
+{
+  padding: 5px;
+  border: 2px solid white;
+}
+
+.hr-style
+{
+  border-top: 1px solid rgba(255, 255, 255, 1);
+}
+
+.card-style
+{
+  background:rgba(0,0,0,0.3);
+  border: 1px solid white;
+}
+
+.jumbotron-style
+{
+  background:rgba(0,0,0,0.2);
+}
+
+.glyph-icon{
+  width:20px;
+  height:20px;
+  }
+
